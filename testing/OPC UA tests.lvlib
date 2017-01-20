@@ -43,10 +43,12 @@
 			<Item Name="Create Input Test Configuration.vi" Type="VI" URL="../Custom OPC UA Tests/Input Tests/Create Input Test Configuration.vi"/>
 		</Item>
 		<Item Name="Output Tests" Type="Folder"/>
-		<Item Name="Generate Test Server.vi" Type="VI" URL="../Custom OPC UA Tests/Generate Test Server.vi"/>
-		<Item Name="Update Test Server.vi" Type="VI" URL="../Custom OPC UA Tests/Update Test Server.vi"/>
+		<Item Name="Test Common" Type="Folder">
+			<Item Name="Add Certificate Paths.vi" Type="VI" URL="../Custom OPC UA Tests/Test Common/Add Certificate Paths.vi"/>
+			<Item Name="Generate Test Server.vi" Type="VI" URL="../Custom OPC UA Tests/Test Common/Generate Test Server.vi"/>
+			<Item Name="Update Test Server.vi" Type="VI" URL="../Custom OPC UA Tests/Test Common/Update Test Server.vi"/>
+		</Item>
 	</Item>
-	<Item Name="Add Certificate Paths.vi" Type="VI" URL="../Custom OPC UA Tests/Certificates/Add Certificate Paths.vi"/>
 	<Item Name="Add Remove Test.vi" Type="VI" URL="../Add Remove Test.vi"/>
 	<Item Name="example test.vi" Type="VI" URL="../example test.vi"/>
 	<Item Name="get channels test.vi" Type="VI" URL="../get channels test.vi"/>
