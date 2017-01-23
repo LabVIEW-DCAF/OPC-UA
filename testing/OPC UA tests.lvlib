@@ -9,6 +9,7 @@
 	<Property Name="Database Path" Type="Str">C:\Program Files (x86)\National Instruments\LabVIEW 2013\data</Property>
 	<Property Name="Enable Alarms Logging" Type="Bool">true</Property>
 	<Property Name="Enable Data Logging" Type="Bool">true</Property>
+	<Property Name="NI.Lib.FriendGUID" Type="Str">cfbd8cef-95d8-4d00-9a69-5d27dfea53d9</Property>
 	<Property Name="NI.Lib.Icon" Type="Bin">%Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!)&lt;!!!*Q(C=\&gt;4"&lt;2MR&amp;)4B3:"$LOIA5!PPL*N;5!OP"6VT6!P4AFJ1#^/#7F!,GX]*WJ%&gt;)$+1"0("8&amp;(7TCY@0X/*F5&lt;\+HX2]KDN@NP?&gt;HUN-UK^_(%X@BG@X9O4V^?8J^0F:`ZK`0WP8_I`4&lt;W\G`[.`D_Z`K$JIXWU`^O_0^SE`XT0@N,[)K+(&lt;HL43_N53]B$(P+1BTTE*D?ZS5VO=J-X?:-X?:-X?:-8?:%8?:%8?:'0AVTE)B=ZJ$"ZG#A5$18#T6!5PI)H?))H?$B6]!20]!20](#,AC&gt;YAC&gt;YAI&gt;B#J\A#:\A#2Z+$5H'19YH?#APYT%?YT%?YW&amp;+'9]"G-F-96-%BMR&amp;]].YD-&gt;Y_#HD-2\D-2\DY&lt;+-RXC-RXC-BS&amp;D64QU[U'/BT*K0)WH]43?RE.J.:\'UXA;4_.B/D7?RN-AGAG&lt;YB$5$'JO;%Y;4_0BDRJ0YWE]D;@R='E]I2YLMWL7ARR0Y3E]B;@Q&amp;"Z+K0!5HM*4?!I0:66Y#E`B+4S&amp;B[F5?!J0Y3EAR;2-L[*9-&lt;#YK1A+$Z_R7WI]*1^*D5/;GV&gt;T5WJO.MV.J,EZ."_[ZM05@%C;C[_ZK*K,J&lt;E)GP_=*FI4ITG*ZO$V2NXYPN)P^$0^2$`3$`1^@5P@L%0`]IWXWUX8[V78SU8H]VGHUUH(YV'(QU(\`6\&lt;\6;&lt;T?&lt;Z.@#.Y`G&amp;]"\?3_`#]&amp;HX&gt;6GD(SYMM&lt;I!!!!!</Property>
 	<Property Name="NI.Lib.SourceVersion" Type="Int">318799872</Property>
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
