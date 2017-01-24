@@ -34,27 +34,37 @@
 	<Property Name="SaveStatePeriod" Type="UInt">0</Property>
 	<Property Name="Serialized ACL" Type="Bin">%Q#!!!!!!!)!"1!&amp;!!!A1%!!!@````]!!".V&lt;H.J:WZF:#"C?82F)'&amp;S=G&amp;Z!!%!!1!!!!A)!!!!#!!!!!!!!!!</Property>
 	<Property Name="Use Data Logging Database" Type="Bool">true</Property>
-	<Item Name="Custom OPC UA Tests" Type="Folder">
-		<Item Name="Init Tests" Type="Folder">
-			<Item Name="Client Init Test.vi" Type="VI" URL="../Client Init Test.vi"/>
-			<Item Name="Create Init Test Configuration.vi" Type="VI" URL="../Create Init Test Configuration.vi"/>
-		</Item>
-		<Item Name="Input Tests" Type="Folder">
-			<Item Name="Create Input Test Configuration.vi" Type="VI" URL="../Create Input Test Configuration.vi"/>
-		</Item>
-		<Item Name="Output Tests" Type="Folder"/>
-		<Item Name="Test Common" Type="Folder">
-			<Item Name="Add Certificate Paths.vi" Type="VI" URL="../Add Certificate Paths.vi"/>
-			<Item Name="Build Server.vi" Type="VI" URL="../Build Server.vi"/>
-			<Item Name="Generate Test Server.vi" Type="VI" URL="../Generate Test Server.vi"/>
+	<Item Name="Init Tests" Type="Folder">
+		<Item Name="Client Init Test.vi" Type="VI" URL="../Client Init Test.vi"/>
+		<Item Name="Create Init Test Configuration.vi" Type="VI" URL="../Create Init Test Configuration.vi"/>
+	</Item>
+	<Item Name="Input Tests" Type="Folder">
+		<Item Name="Create Input Test Configuration.vi" Type="VI" URL="../Create Input Test Configuration.vi"/>
+	</Item>
+	<Item Name="Output Tests" Type="Folder"/>
+	<Item Name="Serialization Tests" Type="Folder">
+		<Item Name="serialization tests.vi" Type="VI" URL="../serialization tests.vi"/>
+	</Item>
+	<Item Name="Test Common" Type="Folder">
+		<Item Name="Certificates" Type="Folder">
+			<Item Name="Add Client Certificate Paths.vi" Type="VI" URL="../Add Client Certificate Paths.vi"/>
+			<Item Name="Add Server Certificate Paths.vi" Type="VI" URL="../Add Server Certificate Paths.vi"/>
 			<Item Name="Get Client Certificates (Server).vi" Type="VI" URL="../Get Client Certificates (Server).vi"/>
 			<Item Name="Get Server Certificate (Server).vi" Type="VI" URL="../Get Server Certificate (Server).vi"/>
-			<Item Name="Update Test Server.vi" Type="VI" URL="../Update Test Server.vi"/>
+		</Item>
+		<Item Name="Build Server.vi" Type="VI" URL="../Build Server.vi"/>
+		<Item Name="Generate Test Server.vi" Type="VI" URL="../Generate Test Server.vi"/>
+		<Item Name="Server Connection Configuration.ctl" Type="VI" URL="../Server Connection Configuration.ctl"/>
+		<Item Name="Update Test Server.vi" Type="VI" URL="../Update Test Server.vi"/>
+	</Item>
+	<Item Name="Unit Tests" Type="Folder">
+		<Item Name="serialization tests.lvtest" Type="TestItem" URL="../Unit Tests/serialization tests.lvtest">
+			<Property Name="utf.test.bind" Type="Str">OPC UA Client Tests.lvlib:serialization tests.vi</Property>
+			<Property Name="utf.vector.test.bind" Type="Str">61A23520-60CD-EE88-ECB4-C30094D8137D</Property>
 		</Item>
 	</Item>
 	<Item Name="Add Remove Test.vi" Type="VI" URL="../Add Remove Test.vi"/>
 	<Item Name="get channels test.vi" Type="VI" URL="../get channels test.vi"/>
 	<Item Name="modify channel test.vi" Type="VI" URL="../modify channel test.vi"/>
-	<Item Name="serialization tests.vi" Type="VI" URL="../serialization tests.vi"/>
 	<Item Name="ToTable Test.vi" Type="VI" URL="../ToTable Test.vi"/>
 </Library>
