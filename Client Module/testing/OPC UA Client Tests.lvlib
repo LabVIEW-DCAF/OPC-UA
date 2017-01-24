@@ -36,24 +36,23 @@
 	<Property Name="Use Data Logging Database" Type="Bool">true</Property>
 	<Item Name="Custom OPC UA Tests" Type="Folder">
 		<Item Name="Init Tests" Type="Folder">
-			<Item Name="Client Init Test.vi" Type="VI" URL="../Custom OPC UA Tests/Init Tests/Client Init Test.vi"/>
-			<Item Name="Create Init Test Configuration.vi" Type="VI" URL="../Custom OPC UA Tests/Init Tests/Create Init Test Configuration.vi"/>
+			<Item Name="Client Init Test.vi" Type="VI" URL="../Client Init Test.vi"/>
+			<Item Name="Create Init Test Configuration.vi" Type="VI" URL="../Create Init Test Configuration.vi"/>
 		</Item>
 		<Item Name="Input Tests" Type="Folder">
-			<Item Name="Create Input Test Configuration.vi" Type="VI" URL="../Custom OPC UA Tests/Input Tests/Create Input Test Configuration.vi"/>
+			<Item Name="Create Input Test Configuration.vi" Type="VI" URL="../Create Input Test Configuration.vi"/>
 		</Item>
 		<Item Name="Output Tests" Type="Folder"/>
 		<Item Name="Test Common" Type="Folder">
-			<Item Name="Add Certificate Paths.vi" Type="VI" URL="../Custom OPC UA Tests/Test Common/Add Certificate Paths.vi"/>
-			<Item Name="Build Server.vi" Type="VI" URL="../../module/execution/SubVIs/Build Server.vi"/>
-			<Item Name="Generate Test Server.vi" Type="VI" URL="../Custom OPC UA Tests/Test Common/Generate Test Server.vi"/>
-			<Item Name="Get Client Certificates (Server).vi" Type="VI" URL="../Custom OPC UA Tests/Test Common/Get Client Certificates (Server).vi"/>
-			<Item Name="Get Server Certificate (Server).vi" Type="VI" URL="../Custom OPC UA Tests/Test Common/Get Server Certificate (Server).vi"/>
-			<Item Name="Update Test Server.vi" Type="VI" URL="../Custom OPC UA Tests/Test Common/Update Test Server.vi"/>
+			<Item Name="Add Certificate Paths.vi" Type="VI" URL="../Add Certificate Paths.vi"/>
+			<Item Name="Build Server.vi" Type="VI" URL="../Build Server.vi"/>
+			<Item Name="Generate Test Server.vi" Type="VI" URL="../Generate Test Server.vi"/>
+			<Item Name="Get Client Certificates (Server).vi" Type="VI" URL="../Get Client Certificates (Server).vi"/>
+			<Item Name="Get Server Certificate (Server).vi" Type="VI" URL="../Get Server Certificate (Server).vi"/>
+			<Item Name="Update Test Server.vi" Type="VI" URL="../Update Test Server.vi"/>
 		</Item>
 	</Item>
 	<Item Name="Add Remove Test.vi" Type="VI" URL="../Add Remove Test.vi"/>
-	<Item Name="example test.vi" Type="VI" URL="../example test.vi"/>
 	<Item Name="get channels test.vi" Type="VI" URL="../get channels test.vi"/>
 	<Item Name="modify channel test.vi" Type="VI" URL="../modify channel test.vi"/>
 	<Item Name="serialization tests.vi" Type="VI" URL="../serialization tests.vi"/>
