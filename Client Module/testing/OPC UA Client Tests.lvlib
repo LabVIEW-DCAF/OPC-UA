@@ -39,11 +39,14 @@
 		<Item Name="Create Init Test Configuration.vi" Type="VI" URL="../Create Init Test Configuration.vi"/>
 	</Item>
 	<Item Name="Input Tests" Type="Folder">
+		<Item Name="Client Input Test.vi" Type="VI" URL="../Client Input Test.vi"/>
+		<Item Name="Close Input Test Connections.vi" Type="VI" URL="../Close Input Test Connections.vi"/>
 		<Item Name="Create Input Test Configuration.vi" Type="VI" URL="../Create Input Test Configuration.vi"/>
+		<Item Name="Initialize Client Input Test.vi" Type="VI" URL="../Initialize Client Input Test.vi"/>
 	</Item>
 	<Item Name="Output Tests" Type="Folder"/>
 	<Item Name="Serialization Tests" Type="Folder">
-		<Item Name="serialization tests.vi" Type="VI" URL="../serialization tests.vi"/>
+		<Item Name="Client Serialization Test.vi" Type="VI" URL="../Client Serialization Test.vi"/>
 	</Item>
 	<Item Name="Test Common" Type="Folder">
 		<Item Name="Certificates" Type="Folder">
@@ -55,12 +58,19 @@
 		<Item Name="Build Server.vi" Type="VI" URL="../Build Server.vi"/>
 		<Item Name="Generate Test Server.vi" Type="VI" URL="../Generate Test Server.vi"/>
 		<Item Name="Server Connection Configuration.ctl" Type="VI" URL="../Server Connection Configuration.ctl"/>
-		<Item Name="Update Test Server.vi" Type="VI" URL="../Update Test Server.vi"/>
 	</Item>
 	<Item Name="Unit Tests" Type="Folder">
-		<Item Name="serialization tests.lvtest" Type="TestItem" URL="../Unit Tests/serialization tests.lvtest">
-			<Property Name="utf.test.bind" Type="Str">OPC UA Client Tests.lvlib:serialization tests.vi</Property>
-			<Property Name="utf.vector.test.bind" Type="Str">61A23520-60CD-EE88-ECB4-C30094D8137D</Property>
+		<Item Name="Client Init Test.lvtest" Type="TestItem" URL="../Unit Tests/Client Init Test.lvtest">
+			<Property Name="utf.test.bind" Type="Str">OPC UA Client Tests.lvlib:Client Init Test.vi</Property>
+			<Property Name="utf.vector.test.bind" Type="Str">89B4FCE9-0352-0681-7644-B4991213172D</Property>
+		</Item>
+		<Item Name="Client Input Test.lvtest" Type="TestItem" URL="../Unit Tests/Client Input Test.lvtest">
+			<Property Name="utf.test.bind" Type="Str">OPC UA Client Tests.lvlib:Client Input Test.vi</Property>
+			<Property Name="utf.vector.test.bind" Type="Str">2E2152A5-DFA2-3509-5A92-AF5203509684</Property>
+		</Item>
+		<Item Name="Client Serialization Test.lvtest" Type="TestItem" URL="../Unit Tests/Client Serialization Test.lvtest">
+			<Property Name="utf.test.bind" Type="Str">OPC UA Client Tests.lvlib:Client Serialization Test.vi</Property>
+			<Property Name="utf.vector.test.bind" Type="Str">2085F1A2-32E4-374F-FB2C-E9FBEC0B6A09</Property>
 		</Item>
 	</Item>
 	<Item Name="Add Remove Test.vi" Type="VI" URL="../Add Remove Test.vi"/>
