@@ -42,7 +42,9 @@
 		<Item Name="Client Input Test.vi" Type="VI" URL="../Client Input Test.vi"/>
 		<Item Name="Close Input Test Connections.vi" Type="VI" URL="../Close Input Test Connections.vi"/>
 		<Item Name="Create Input Test Configuration.vi" Type="VI" URL="../Create Input Test Configuration.vi"/>
+		<Item Name="Grade Input Test.vi" Type="VI" URL="../Grade Input Test.vi"/>
 		<Item Name="Initialize Client Input Test.vi" Type="VI" URL="../Initialize Client Input Test.vi"/>
+		<Item Name="Update Test Server.vi" Type="VI" URL="../Update Test Server.vi"/>
 	</Item>
 	<Item Name="Output Tests" Type="Folder"/>
 	<Item Name="Serialization Tests" Type="Folder">
@@ -62,15 +64,15 @@
 	<Item Name="Unit Tests" Type="Folder">
 		<Item Name="Client Init Test.lvtest" Type="TestItem" URL="../Unit Tests/Client Init Test.lvtest">
 			<Property Name="utf.test.bind" Type="Str">OPC UA Client Tests.lvlib:Client Init Test.vi</Property>
-			<Property Name="utf.vector.test.bind" Type="Str">89B4FCE9-0352-0681-7644-B4991213172D</Property>
+			<Property Name="utf.vector.test.bind" Type="Str">D4D760FD-3AF9-F353-9537-27877D6BCF7B</Property>
 		</Item>
 		<Item Name="Client Input Test.lvtest" Type="TestItem" URL="../Unit Tests/Client Input Test.lvtest">
 			<Property Name="utf.test.bind" Type="Str">OPC UA Client Tests.lvlib:Client Input Test.vi</Property>
-			<Property Name="utf.vector.test.bind" Type="Str">2E2152A5-DFA2-3509-5A92-AF5203509684</Property>
+			<Property Name="utf.vector.test.bind" Type="Str">A74C8768-32F6-9DA9-49C0-CFC5B24A2086</Property>
 		</Item>
 		<Item Name="Client Serialization Test.lvtest" Type="TestItem" URL="../Unit Tests/Client Serialization Test.lvtest">
 			<Property Name="utf.test.bind" Type="Str">OPC UA Client Tests.lvlib:Client Serialization Test.vi</Property>
-			<Property Name="utf.vector.test.bind" Type="Str">2085F1A2-32E4-374F-FB2C-E9FBEC0B6A09</Property>
+			<Property Name="utf.vector.test.bind" Type="Str">80128CEB-6BBE-FEE8-81A2-4B06A97E66EE</Property>
 		</Item>
 	</Item>
 	<Item Name="Add Remove Test.vi" Type="VI" URL="../Add Remove Test.vi"/>
