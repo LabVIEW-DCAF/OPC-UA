@@ -176,6 +176,8 @@
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 				<Item Name="write syslog.vi" Type="VI" URL="/&lt;vilib&gt;/NI/Syslog Wrapper - Linux/write syslog.vi"/>
 			</Item>
+			<Item Name="CheckTableAPI configuration.lvclass" Type="LVClass" URL="../../../../../mjacobso/Desktop/Default Module/CheckTableAPI/module/configuration/CheckTableAPI configuration.lvclass"/>
+			<Item Name="CheckTableAPI editor node.lvclass" Type="LVClass" URL="../../../../../mjacobso/Desktop/Default Module/CheckTableAPI/editor node/CheckTableAPI editor node.lvclass"/>
 			<Item Name="ni_opcua_base.dll" Type="Document" URL="ni_opcua_base.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
