@@ -1,11 +1,27 @@
-In LabVIEW 2013 SP1 the Client Connection will only timeout after 5 minutes which is documented in CAR 426840.
+CAR 426840: In LabVIEW 2013 SP1 the Client Connection will only timeout after 5 minutes. This is only true in LabVIEW 2013 SP1 and fixed in later versions so this is not being addressed.
 
-Users are not given the option to read or write to a bytestring array in the OPC UA server or client module. This functionality is not supported as of the 2016 release of the OPC UA API and is documented as part of CAR 308742.
+CAR 308742: Users are not given the option to read or write to a bytestring array in the OPC UA server or client module. This functionality is not supported as of the 2016 release of the OPC UA API.
 
-CAR 630981 - OPC UA Client Read Function Will Not Throw Error or Warning if Wrong Polymorphic Instance is Selected
+CAR 630981 - OPC UA Client Read Function Will Not Throw Error or Warning if Wrong Polymorphic Instance is Selected. Manual checks have been put in place during runtime init and a custom error is thrown if the wrong data type is chosen.
 
-CAR 631356 - OPC UA Client API Does not Throw Error/Warning on Read/Write if it has Incorrect Access Level
+CAR 631356 - OPC UA Client API Does not Throw Error/Warning on Read/Write if it has Incorrect Access Level. Manual checks have been put in place during runtime init and a custom error is thrown if you try to read a write-only node or write to a read-only node.
+
+DCAF Project Template
+Issues 67, 68, 79
 
 Errors:
 538800: Incorrect Data Type
 538801: Invalid Access Level
+
+Feedback (things that were confusing, unclear, or didn't make sense to me)
+
+Configuration:
+1. This was pretty clear, but maybe not entirely obvious what information the channel class already had. I understood what data my line would need but wasn't sure what the channel already had.
+
+Runtime:
+1. Pretty straightforward once I understood what the input and output maps were, what they were used for, and what data I needed to put in them.
+
+Editor Node:
+1. Settings event does not refresh UI. It sends a Node Change UE which doesn't seem to be updating the table although the line is updating. The right-click edit option does work and adding RefressUI Event.vi to the settings event seems to fix everything.
+2. Edit right-click uses Node Change Event.vi but because there isn't an input connected that VI doesn't do anything (I'm also not sure what is even handling the event)
+3. If you just change the tag when configuring a channel it will update the mapping but because it doesn't change the line at all, changed? is false so it will never try to update anything.

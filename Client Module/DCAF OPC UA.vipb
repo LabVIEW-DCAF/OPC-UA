@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="0.6" Created_Date="2016-11-18 16:20:39" Modified_Date="2017-02-21 14:32:22" Creator="Lee Harding" Comments="" ID="fbdd096609ffa7f70f471d781b59915e">
+<VI_Package_Builder_Settings Version="0.6" Created_Date="2016-11-18 16:20:39" Modified_Date="2017-02-24 14:36:41" Creator="Lee Harding" Comments="" ID="12d6a11bd0385b9fef6e94503a4e07c4">
   <Library_General_Settings>
-    <Package_File_Name>ni_lib_dcaf_dds</Package_File_Name>
-    <Library_Version>1.0.1.15</Library_Version>
+    <Package_File_Name>ni_lib_dcaf_opcua</Package_File_Name>
+    <Library_Version>1.0.1.19</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>.</Library_Source_Folder>
     <Library_Output_Folder>..\..\OPC UA Build</Library_Output_Folder>
@@ -27,16 +27,14 @@
       <Pre-Uninstall_VI/>
       <Post-Uninstall_VI/>
     </Custom_Action_VIs>
-    <VI_Package_Configuration_File>DCAF DDS.vipc</VI_Package_Configuration_File>
+    <VI_Package_Configuration_File>DCAF OPC UA.vipc</VI_Package_Configuration_File>
     <Description>
       <One_Line_Description_Summary>Interface to OPC UA Server</One_Line_Description_Summary>
       <Description/>
       <Copyright/>
       <Packager>NI Systems Engineering</Packager>
       <URL>http://ni.com/dcaf</URL>
-      <Release_Notes>Initial release.
-
-Supports basic types, not arrays or clusters.</Release_Notes>
+      <Release_Notes>pre-release changes</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
