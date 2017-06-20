@@ -68,19 +68,19 @@
 	<Item Name="Unit Tests" Type="Folder">
 		<Item Name="Client Init Test.lvtest" Type="TestItem" URL="../Unit Tests/Client Init Test.lvtest">
 			<Property Name="utf.test.bind" Type="Str">OPC UA Client Tests.lvlib:Client Init Test.vi</Property>
-			<Property Name="utf.vector.test.bind" Type="Str">C0CDDF53-C38E-C21D-016E-22CE5DE3929E</Property>
+			<Property Name="utf.vector.test.bind" Type="Str">2D83F232-FBA3-94E2-A50E-7E3A4625405C</Property>
 		</Item>
 		<Item Name="Client Input Test.lvtest" Type="TestItem" URL="../Unit Tests/Client Input Test.lvtest">
 			<Property Name="utf.test.bind" Type="Str">OPC UA Client Tests.lvlib:Client Input Test.vi</Property>
-			<Property Name="utf.vector.test.bind" Type="Str">2D8C5E37-313A-16BD-21EA-D02BED75C675</Property>
+			<Property Name="utf.vector.test.bind" Type="Str">7D72AC5A-C593-A797-212E-CDD3DD02A525</Property>
 		</Item>
 		<Item Name="Client Output Test.lvtest" Type="TestItem" URL="../Unit Tests/Client Output Test.lvtest">
 			<Property Name="utf.test.bind" Type="Str">OPC UA Client Tests.lvlib:Client Output Test.vi</Property>
-			<Property Name="utf.vector.test.bind" Type="Str">E676824D-7DE4-5649-B603-20598A525C5C</Property>
+			<Property Name="utf.vector.test.bind" Type="Str">40656A41-A1BE-4557-B24F-EFEC36740557</Property>
 		</Item>
 		<Item Name="Client Serialization Test.lvtest" Type="TestItem" URL="../Unit Tests/Client Serialization Test.lvtest">
 			<Property Name="utf.test.bind" Type="Str">OPC UA Client Tests.lvlib:Client Serialization Test.vi</Property>
-			<Property Name="utf.vector.test.bind" Type="Str">4256A721-3DFC-A241-E7D9-843DCDCAE4EA</Property>
+			<Property Name="utf.vector.test.bind" Type="Str">874118D3-6B00-02B8-6BC8-CBE39874D512</Property>
 		</Item>
 	</Item>
 	<Item Name="Add Remove Test.vi" Type="VI" URL="../Add Remove Test.vi"/>
