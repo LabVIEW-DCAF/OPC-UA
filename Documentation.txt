@@ -12,16 +12,3 @@ Issues 67, 68, 79
 Errors:
 538800: Incorrect Data Type
 538801: Invalid Access Level
-
-Feedback (things that were confusing, unclear, or didn't make sense to me)
-
-Configuration:
-1. This was pretty clear, but maybe not entirely obvious what information the channel class already had. I understood what data my line would need but wasn't sure what the channel already had.
-
-Runtime:
-1. Pretty straightforward once I understood what the input and output maps were, what they were used for, and what data I needed to put in them.
-
-Editor Node:
-1. Settings event does not refresh UI. It sends a Node Change UE which doesn't seem to be updating the table although the line is updating. The right-click edit option does work and adding RefressUI Event.vi to the settings event seems to fix everything.
-2. Edit right-click uses Node Change Event.vi but because there isn't an input connected that VI doesn't do anything (I'm also not sure what is even handling the event)
-3. If you just change the tag when configuring a channel it will update the mapping but because it doesn't change the line at all, changed? is false so it will never try to update anything.
