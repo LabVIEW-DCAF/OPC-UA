@@ -1,0 +1,14 @@
+CAR 426840: In LabVIEW 2013 SP1 the Client Connection will only timeout after 5 minutes. This is only true in LabVIEW 2013 SP1 and fixed in later versions so this is not being addressed.
+
+CAR 308742: Users are not given the option to read or write to a bytestring array in the OPC UA server or client module. This functionality is not supported as of the 2016 release of the OPC UA API.
+
+CAR 630981 - OPC UA Client Read Function Will Not Throw Error or Warning if Wrong Polymorphic Instance is Selected. Manual checks have been put in place during runtime init and a custom error is thrown if the wrong data type is chosen.
+
+CAR 631356 - OPC UA Client API Does not Throw Error/Warning on Read/Write if it has Incorrect Access Level. Manual checks have been put in place during runtime init and a custom error is thrown if you try to read a write-only node or write to a read-only node.
+
+DCAF Project Template
+Issues 67, 68, 79
+
+Errors:
+538800: Incorrect Data Type
+538801: Invalid Access Level

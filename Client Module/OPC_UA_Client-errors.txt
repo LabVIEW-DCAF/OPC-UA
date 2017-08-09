@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<nidocument>
+<nicomment>
+
+<nifamily familyname="DCAF - OPC UA Client" displayname="DCAF - OPC UA Client">
+</nifamily>
+</nicomment>
+<nierror code="538800">
+The data type of the configured item does not match that of the server.
+</nierror>
+<nierror code="538801">
+Invalid access level. You have either attempted to write to a read-only node or read from a write-only node.
+</nierror>
+</nidocument>
