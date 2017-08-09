@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="0.6" Created_Date="2016-11-18 16:20:39" Modified_Date="2017-08-09 09:52:37" Creator="Lee Harding" Comments="" ID="d19bb42aec2986387c113f34c487df77">
+<VI_Package_Builder_Settings Version="0.6" Created_Date="2016-11-18 16:20:39" Modified_Date="2017-08-09 14:57:55" Creator="Lee Harding" Comments="" ID="ad4dad7e4f5ccf1a28e370d101b2dbbf">
   <Library_General_Settings>
     <Package_File_Name>ni_lib_dcaf_opcua</Package_File_Name>
-    <Library_Version>1.0.1.25</Library_Version>
+    <Library_Version>1.1.0.28</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>.</Library_Source_Folder>
     <Library_Output_Folder>..\..\OPC UA Build</Library_Output_Folder>
@@ -35,7 +35,7 @@
       <Copyright/>
       <Packager>NI Systems Engineering</Packager>
       <URL>http://ni.com/dcaf</URL>
-      <Release_Notes>pre-release changes</Release_Notes>
+      <Release_Notes>Release Candidate</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
