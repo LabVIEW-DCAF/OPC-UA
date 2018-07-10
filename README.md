@@ -50,6 +50,14 @@ The Client Configuration tab will be used to configure the information necessary
 
 **Path Relative to Application Directory**: If left unchecked, the certificate paths are interpreted as absolute paths. If checked, the certificate paths will be interpreted as being relative to the application directory as defined by the [LabVIEW file constant](http://zone.ni.com/reference/en-XX/help/371361L-01/glang/application_directory/).
 
+# Module Errors
+The following errors are unique to the OPC UA Module
+
+Error Number | Description | Classification
+--- | --- | ---
+538800 | The data type of the configured item does not match that of the server | Critical
+538801 | Invalid access level. You have either attempted to write to a read-only node or read from a write-only node | Critical
+
 # Software Requirements
 + LabVIEW 2014+
 + Datalogging and Supervisory Control Module if using LabVIEW 2016 or lower
