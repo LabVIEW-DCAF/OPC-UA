@@ -3,7 +3,7 @@
 Connect your DCAF application to an OPC UA Server
 
 # Description
-OPC UA is a platform independent, machine to machine communication protocol for industrial automation developed by the OPC Foundation. See [Why OPC UA Matters](https://forums.ni.com/t5/Distributed-Control-Automation/DCAF-OPC-UA-Client-Module-Documentation/gpm-p/3680900) for more information on the OPC UA Protocol.
+OPC UA is a platform independent, machine to machine communication protocol for industrial automation developed by the OPC Foundation. See [Why OPC UA Matters](http://www.ni.com/white-paper/13843/en/) for more information on the OPC UA Protocol.
 
 This module acts as an OPC UA client, allowing read and write access to tags hosted on an OPC UA server.
 
