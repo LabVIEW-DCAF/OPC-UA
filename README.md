@@ -15,9 +15,9 @@ The first tab in the editor will be used to configure your channels and map them
 
 Use the ‘+’ button to add new channels, the ‘-‘ button to remove the highlighted channel, and the gear button to edit the highlighted channel.
 
-![Channel Configuration](Documentation/ChannelConfiguration.png)
-
 When adding or editing a channel, the following screen will be presented.
+
+![Channel Configuration](Documentation/ChannelConfiguration.png)
 
 **Node Path**: The node path consists of node names separated by a period between each name, with the parent node name before the period and child node name after the period. For example, a node path *Device.folder.item* indicates that *Device* is the parent node of *folder*, and *folder* is the parent node of *item*. The following examples demonstrate how to handle some unique conditions:
 
