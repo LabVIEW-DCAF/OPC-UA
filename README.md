@@ -29,53 +29,31 @@ When adding or editing a channel, the following screen will be presented.
 
 **Data Type**: This is the data type of the item on the OPC UA Server. Not all OPC UA data types are directly supported by the DCAF engine. The module supports reading and writing these items to an OPC UA Server but will convert the data to the appropriate type when communicating with the DCAF engine. For example, a node of type DateTime will be stored as a Double and the Tag list will be populated by all available Double tags. The table below shows OPC UA data types and what will be used in the DCAF engine for those data types which do not have a 1-to-1 mapping:
 
- 
+OPC UA Data Type | DCAF Data Type
+--- | ---
+ByteString | String
+DateTime | Double
+DateTime Array | Array of Double
 
-OPC UA Data Type
-
-DCAF Data Type
-
-ByteString
-
-String
-
-DateTime
-
-Double
-
-DateTime Array
-
-Array of Double
-
- 
-
-Tag: The DCAF tag to map this channel to.
-
- 
+**Tag**: The DCAF tag to map this channel to.
 
 ### Client Configuration
 The Client Configuration tab will be used to configure the information necessary to open a connection to the OPC UA Server.
 
 ![UA Client Configuration](Documentation/UAClientConfiguration.png)
 
-Server Endpoint URL: Specifies the endpoint URL to which the OPC UA client connects. The endpoint URL consists of the hostname and the port of the OPC UA server. The format of the server endpoint URL is opc.tcp://hostname:︎port. The hostname is the IP address or computer name.
+**Server Endpoint URL**: Specifies the endpoint URL to which the OPC UA client connects. The endpoint URL consists of the hostname and the port of the OPC UA server. The format of the server endpoint URL is *opc.tcp://hostname:︎port*. The hostname is the IP address or computer name.
 
-Security Policy: The security options required to connect to the specified server.
+**Security Policy**: The security options required to connect to the specified server.
 
-Certificate Paths: The path to the public key file. The file extension of the file must be .der. The public key and private key (.pfx) must have the same name and reside in the same folder.
+**Certificate Paths**: The path to the public key file. The file extension of the file must be .der. The public key and private key (.pfx) must have the same name and reside in the same folder.
 
-Path Relative to Application Directory: If left unchecked, the certificate paths are interpreted as absolute paths. If checked, the certificate paths will be interpreted as being relative to the application directory as defined by the LabVIEW file constant.
-
- 
+**Path Relative to Application Directory**: If left unchecked, the certificate paths are interpreted as absolute paths. If checked, the certificate paths will be interpreted as being relative to the application directory as defined by the [LabVIEW file constant](http://zone.ni.com/reference/en-XX/help/371361L-01/glang/application_directory/).
 
 # Software Requirements
-LabVIEW 2014+
-
-Datalogging and Supervisory Control Module if using LabVIEW 2016 or lower
-
-OPC UA Toolkit if using LabVIEW 2017+
-
- 
++ LabVIEW 2014+
++ Datalogging and Supervisory Control Module if using LabVIEW 2016 or lower
++ OPC UA Toolkit if using LabVIEW 2017+
 
 # Limitations
 The module does not give users the option to read or write to a bytestring array node on an OPC UA server as the functionality is not supported by the underlying OPC UA API (CAR 308742).
